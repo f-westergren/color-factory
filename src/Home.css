@@ -1,0 +1,13 @@
+.Home-div {
+  background-color: black;
+  color: white;
+  padding: 3rem;
+}
+
+.Home-Link {
+  color: white;
+}
+
+.Home-list li {
+  list-style: none;
+}
