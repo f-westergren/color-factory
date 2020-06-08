@@ -1,0 +1,51 @@
+.NewColorForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+}
+
+.NewColorForm-form {
+  position: relative;
+  /* flex-direction: column; */
+  height: 200px;
+  width: 400px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.NewColorForm-div {
+  height: 2rem;
+  line-height: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  text-align: left;
+}
+
+
+.NewColorForm-label {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+
+.NewColorForm-button {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 2rem;
+  background-color: peachpuff;
+  border-style: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+.NewColorForm-button:hover {
+  cursor: pointer;
+  background-color: #f6dcc5;
+}
